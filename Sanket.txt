@@ -1,0 +1,57 @@
+Recursion in C
+
+Defination of recursion 
+>>>> recursion is the programming technique in which the fuction call it self directly or indirectly to solve the problem 
+>>>> The idea is to divide A larger problem into smaller problems of the same time until a simple condiotion is reached .
+
+Recursion Fuctions 
+
+A recursion fuction is the fuction it call itself during its execution 
+a recursion fuction must have a condition to stop a repeated function calls.
+
+***Base case
+> the base case is the condition to stop recursion .
+> It represents the smallest or simplest version of the problem that can be solved directly .
+
+
+
+***Recursion Case
+> the recursion case should move the problem towards the base case .
+
+
+***Types of recursion 
+
+1 .Tail recursion
+2 .Non Tail recursion
+
+Tail recursion
+<>>> Tail recursion occurs when the recursive function call is the last operation performed by the function .
+ 
+
+Non Tail recursion 
+>>> non tail recursion occurs when some operation still needs to be performed after the recursive call returns .
+
+
+###Syntax for recursion 
+
+int func_name (){
+    base case
+    recursive base
+}
+
+
+Example problems of recursion 
+ > print the numbers from 1 to n , using recursion 
+>  print the numbers from n to 1 , using recursion 
+>  find the sum of numbers from 1 to n , using recursion 
+> find the factorial of a number using recursion 
+> find the sum of digits , using recursion 
+> reverse a number using recursion 
+
+4) 5! = 120 
+   7! = 5040 
+
+
+
+
+
